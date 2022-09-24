@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   gateway:
-    build: ./gateway
+    build: gateway
     restart: unless-stopped
     devices:
       - "/dev/net/tun:/dev/net/tun"
